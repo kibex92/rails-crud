@@ -1,5 +1,6 @@
 class RestaurantsController < ApplicationController
   before_action :set_restaurant, only: [:show, :edit, :update, :destroy]
+  
   def index
     # Find all restaurants -> Restaurant.all
     # Store in an instance variable
